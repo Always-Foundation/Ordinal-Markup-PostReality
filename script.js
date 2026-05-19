@@ -9,8 +9,8 @@ setMarks()
 let clickCoolDown = 0
 let infinityButtonText = 0
 let game
-let factorShiftCosts=[200, 1000, 10000, 350000, 10**12, 10**21, 10**100, 1.095*10**272, Infinity]
-let factorCostExp=[2,2,2,3,3,6,30,100]
+let factorShiftCosts=[1,2,3,4,5,6,7,8,9,10]
+let factorCostExp=[1,2,2,2,2,2,2,2,3,4,4,5]
 const bupUpgradeCosts=[1,1,1,12,5,4,8,36,72,73,16,108,53,74,66,324]
 const slugMile=[10**10,20,15,12,10,8,6,5,4,3,2,1,-1]
 let totalMult = 1
@@ -20,7 +20,7 @@ const challengeCurve=[0,0.5,0.75,1]
 let partOP = 0
 let collapseAnimation = 0
 const iupCosts=[10**5,10**3,10**9,10**17,2e22,4e23,10**19,2e25,4e27]
-let ordColor = "no" //yes
+let ordColor = "yes" //yes
 let EN = ExpantaNum
 const musicLink=[
 "https://cdn.glitch.com/03a4b67b-6f18-4f6d-8d37-50a18fb615c8%2FGoing%20Down%20by%20Jake%20Chudnow%20%5BHD%5D.mp3?v=1581538237884",
